@@ -17,7 +17,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# 2. Dataset Loading
+# 2. Load Your Clean Dataset
 @st.cache_data
 def load_data():
     df = pd.read_csv("dashboard.csv")
@@ -33,7 +33,7 @@ def load_data():
 
 df = load_data()
 
-# Industry Mapping
+# Function to map industries to major sectors (PSIC-based grouping)
 def get_major_sector(industry):
     agriculture_keywords = ['Agriculture', 'Forestry', 'Fishing', 'Crop', 'Livestock']
     if any(keyword in industry for keyword in agriculture_keywords):
@@ -49,10 +49,10 @@ def get_major_sector(industry):
     
     return 'Services'
 
-# Major Industry Column
+# Add major sector column to dataframe
 df['Major_Sector'] = df['Industry'].apply(get_major_sector)
 
-# UI Theme
+# Premium UI Theme
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
@@ -123,20 +123,39 @@ st.sidebar.markdown("---")
 
 nav_options = {
     "dashboard": "📈 Dashboard Overview",
-     "employment_sector": "👥 Employment by Sector",
-    "forecasting": "🔮 Employment Forecasting",
-    "wage_analysis": "💰 Wage Analysis by Industry"
-   
+    "employment_sector": "👥 Employment by Sector",
+    "wage_analysis": "💰 Wage Analysis by Industry",
+    "forecasting": "🔮 Employment Forecasting"
+    
+    
 }
 
 if 'navigation' not in st.session_state:
     st.session_state.navigation = "dashboard"
 
 for nav_key, nav_label in nav_options.items():
+    # Larger clickable nav buttons
     if st.sidebar.button(nav_label, key=nav_key, use_container_width=True):
         st.session_state.navigation = nav_key
+        
+# Make Streamlit sidebar buttons slightly larger via CSS
+st.markdown("""
+<style>
+/* Increase sidebar button padding and font size for nav buttons */
+section[data-testid="stSidebar"] button[kind="secondary"],
+section[data-testid="stSidebar"] button {
+    padding-top: 0.9rem !important;
+    padding-bottom: 0.9rem !important;
+    font-size: 1.05rem !important;
+    border-radius: 12px !important;
+}
+</style>
+""", unsafe_allow_html=True)
 
-# 5. Main Content Area 
+st.sidebar.markdown("---")
+st.sidebar.markdown("📌 **Data Source:** Philippine Statistcis Authority")
+
+# 5. Main Content Area based on Navigation Selection
 if st.session_state.navigation == "dashboard":
     st.title("📊 National Industry Labor & Wage Dashboard")
     st.markdown("---")
@@ -460,3 +479,4 @@ elif st.session_state.navigation == "employment_sector":
 # Footer
 st.markdown("---")
 st.markdown("<p style='text-align: center; opacity: 0.7;'>📊 Data Source: <a href='https://openstat.psa.gov.ph/Database/Labor-and-Employment' target='_blank'> Philippine Statistics Authority - Labor and Employment</a> | Dashboard built with Streamlit</p>", unsafe_allow_html=True)
+
