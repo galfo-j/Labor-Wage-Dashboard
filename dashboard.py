@@ -115,14 +115,14 @@ hr{
 """, unsafe_allow_html=True)
 
 # 4. Sidebar Navigation Controls
-st.sidebar.title("🎛️ Navigation")
+st.sidebar.title("📋 Navigation")
 st.sidebar.markdown("---")
 
 nav_options = {
     "dashboard": "📈 Dashboard Overview",
     "employment_sector": "👥 Employment by Sector",
     "wage_analysis": "💰 Wage Analysis by Industry",
-    "forecasting": "🔮 Employment Forecasting"
+    "forecasting": " 📉 Employment Forecasting"
     
     
 }
