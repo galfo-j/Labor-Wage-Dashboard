@@ -123,9 +123,10 @@ st.sidebar.markdown("---")
 
 nav_options = {
     "dashboard": "📈 Dashboard Overview",
+     "employment_sector": "👥 Employment by Sector",
     "forecasting": "🔮 Employment Forecasting",
-    "wage_analysis": "💰 Wage Analysis by Industry",
-    "employment_sector": "👥 Employment by Sector"
+    "wage_analysis": "💰 Wage Analysis by Industry"
+   
 }
 
 if 'navigation' not in st.session_state:
