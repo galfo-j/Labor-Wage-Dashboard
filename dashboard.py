@@ -21,19 +21,16 @@ st.set_page_config(
 @st.cache_data
 def load_data():
     df = pd.read_csv("dashboard.csv")
-    # Combine Year and Month into a clean Timeline column for plotting
     df['Timeline'] = df['MONTH'] + " " + df['YEAR'].astype(str)
-    # Ensure chronological order for quarterly data
     month_order = {'January': 1, 'April': 2, 'July': 3, 'October': 4}
     df['Month_Num'] = df['MONTH'].map(month_order)
     df = df.sort_values(by=['YEAR', 'Month_Num'])
-    # Create a numeric time index for forecasting
     df['Time_Index'] = range(len(df))
     return df
 
 df = load_data()
 
-# Function to map industries to major sectors (PSIC-based grouping)
+# Industry Mapping
 def get_major_sector(industry):
     agriculture_keywords = ['Agriculture', 'Forestry', 'Fishing', 'Crop', 'Livestock']
     if any(keyword in industry for keyword in agriculture_keywords):
@@ -134,11 +131,9 @@ if 'navigation' not in st.session_state:
     st.session_state.navigation = "dashboard"
 
 for nav_key, nav_label in nav_options.items():
-    # Larger clickable nav buttons
     if st.sidebar.button(nav_label, key=nav_key, use_container_width=True):
         st.session_state.navigation = nav_key
         
-# Make Streamlit sidebar buttons slightly larger via CSS
 st.markdown("""
 <style>
 /* Increase sidebar button padding and font size for nav buttons */
@@ -155,7 +150,7 @@ section[data-testid="stSidebar"] button {
 st.sidebar.markdown("---")
 st.sidebar.markdown("📌 **Data Source:** Philippine Statistcis Authority")
 
-# 5. Main Content Area based on Navigation Selection
+# 5. Main Content
 if st.session_state.navigation == "dashboard":
     st.title("📊 National Industry Labor & Wage Dashboard")
     st.markdown("---")
@@ -212,7 +207,7 @@ if st.session_state.navigation == "dashboard":
     
     st.markdown("---")
     
-    # Base filtering logic handling "All" aggregates
+    # Base filtering logic 
     if selected_major_sector == "All Major Sectors":
         if selected_industry == "All Industries":
             filtered_df = df.groupby('Timeline', as_index=False).agg({'Employed_Persons': 'sum', 'Average_Daily_Pay': 'mean', 'YEAR': 'first', 'Month_Num': 'first'})
