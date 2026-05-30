@@ -152,7 +152,7 @@ st.sidebar.markdown("📌 **Data Source:** Philippine Statistcis Authority")
 
 # 5. Main Content
 if st.session_state.navigation == "dashboard":
-    st.title("📊 National Industry Labor & Wage Dashboard")
+    st.title("📊 Philippine Industry Labor & Wage Dashboard")
     st.markdown("---")
     
     # ============ QUICK STATS SECTION ============
@@ -190,7 +190,6 @@ if st.session_state.navigation == "dashboard":
     
     st.markdown("---")
     
-    # ============ HIERARCHICAL INDUSTRY SELECTOR BELOW QUICK STATS ============
     st.markdown("### 🎯 Select Industry for Analysis")
     
     sel_col1, sel_col2 = st.columns(2)
@@ -207,7 +206,6 @@ if st.session_state.navigation == "dashboard":
     
     st.markdown("---")
     
-    # Base filtering logic 
     if selected_major_sector == "All Major Sectors":
         if selected_industry == "All Industries":
             filtered_df = df.groupby('Timeline', as_index=False).agg({'Employed_Persons': 'sum', 'Average_Daily_Pay': 'mean', 'YEAR': 'first', 'Month_Num': 'first'})
@@ -266,7 +264,7 @@ if st.session_state.navigation == "dashboard":
     st.plotly_chart(fig_scatter, use_container_width=True)
 
 elif st.session_state.navigation == "forecasting":
-    # ============ FORECASTING TAB (ANNUAL + HIERARCHICAL) ============
+    # ============ FORECASTING TAB  ============
     st.title("🔮 Annual Employment Forecasting Engine")
     st.markdown("Predict annual employment trajectories based on year-on-year industrial data trends using Linear Regression models.")
     st.markdown("---")
@@ -290,7 +288,7 @@ elif st.session_state.navigation == "forecasting":
     with col_param2:
         show_confidence = st.checkbox("Show Prediction Interval Bounds", value=True)
         
-    # 2. Extract Data & Transform to Annual Aggregates
+    # 2. Extract Data & Transform 
     if selected_f_major == "All Major Sectors":
         if selected_f_industry == "All Industries Combined":
             forecast_base_df = df.copy()
