@@ -1,0 +1,421 @@
+YEAR,MONTH,Industry,Employed_Persons,Average_Daily_Pay
+2021,January,Agriculture and Forestry,8923.11,275.48
+2021,April,Agriculture and Forestry,9210.296,272.42
+2021,July,Agriculture and Forestry,7985.056,292.57
+2021,October,Agriculture and Forestry,9416.182,282.54
+2022,January,Agriculture and Forestry,8218.575,296.02
+2022,April,Agriculture and Forestry,9461.469,293.68
+2022,July,Agriculture and Forestry,9731.043,305.8
+2022,October,Agriculture and Forestry,9210.668,305.87
+2023,January,Agriculture and Forestry,9181.004,308.62
+2023,April,Agriculture and Forestry,9171.526,310.38
+2023,July,Agriculture and Forestry,7847.967,331.62
+2023,October,Agriculture and Forestry,9231.904,325.54
+2024,January,Agriculture and Forestry,8053.085,338.41
+2024,April,Agriculture and Forestry,8353.127,344.08
+2024,July,Agriculture and Forestry,8756.983,342.49
+2024,October,Agriculture and Forestry,9049.217,353.09
+2025,January,Agriculture and Forestry,8934.372,350.44
+2025,April,Agriculture and Forestry,8612.813,356.98
+2025,July,Agriculture and Forestry,7381.689,375.82
+2025,October,Agriculture and Forestry,9217.489,377.06
+2021,January,Fishing and Aquaculture,1120.559,334.37
+2021,April,Fishing and Aquaculture,1349.754,424.73
+2021,July,Fishing and Aquaculture,1200.694,309.36
+2021,October,Fishing and Aquaculture,1351.593,330.01
+2022,January,Fishing and Aquaculture,1176.104,331.05
+2022,April,Fishing and Aquaculture,1290.353,285.23
+2022,July,Fishing and Aquaculture,1399.117,322.06
+2022,October,Fishing and Aquaculture,1383.146,322.13
+2023,January,Fishing and Aquaculture,1334.257,338.64
+2023,April,Fishing and Aquaculture,1373.743,327.09
+2023,July,Fishing and Aquaculture,1310.716,348.73
+2023,October,Fishing and Aquaculture,1350.259,358.55
+2024,January,Fishing and Aquaculture,1315.279,362.21
+2024,April,Fishing and Aquaculture,1445.007,346.69
+2024,July,Fishing and Aquaculture,1323.832,445.07
+2024,October,Fishing and Aquaculture,1137.513,435.4
+2025,January,Fishing and Aquaculture,1307.856,412.1
+2025,April,Fishing and Aquaculture,1408.616,361.71
+2025,July,Fishing and Aquaculture,1151.009,379.1
+2025,October,Fishing and Aquaculture,1225.366,383.89
+2021,January,Mining and Quarrying,177.483,443.97
+2021,April,Mining and Quarrying,192.386,440.58
+2021,July,Mining and Quarrying,202.431,480.32
+2021,October,Mining and Quarrying,170.169,413.93
+2022,January,Mining and Quarrying,202.714,501.85
+2022,April,Mining and Quarrying,202.389,494.55
+2022,July,Mining and Quarrying,192.711,555.15
+2022,October,Mining and Quarrying,237.063,531.11
+2023,January,Mining and Quarrying,217.469,499.37
+2023,April,Mining and Quarrying,240.216,493.79
+2023,July,Mining and Quarrying,220.872,526.41
+2023,October,Mining and Quarrying,162.139,443.77
+2024,January,Mining and Quarrying,215.557,535.78
+2024,April,Mining and Quarrying,243.76,541.34
+2024,July,Mining and Quarrying,185.125,456.39
+2024,October,Mining and Quarrying,261.841,522.78
+2025,January,Mining and Quarrying,220.392,590.01
+2025,April,Mining and Quarrying,188.478,634.18
+2025,July,Mining and Quarrying,245.187,566.75
+2025,October,Mining and Quarrying,228.418,606.97
+2021,January,Manufacturing,3140.448,451.17
+2021,April,Manufacturing,3419.99,458.65
+2021,July,Manufacturing,3527.548,474.24
+2021,October,Manufacturing,3321.39,481.53
+2022,January,Manufacturing,3640.645,480.49
+2022,April,Manufacturing,3656.096,489.06
+2022,July,Manufacturing,3492.183,487.26
+2022,October,Manufacturing,3677.079,483.43
+2023,January,Manufacturing,3671.474,497.55
+2023,April,Manufacturing,3453.843,512.4
+2023,July,Manufacturing,3613.119,522.07
+2023,October,Manufacturing,3602.15,543.22
+2024,January,Manufacturing,3569.569,546.46
+2024,April,Manufacturing,3738.593,546.64
+2024,July,Manufacturing,3453.313,544.98
+2024,October,Manufacturing,3482.886,541.6
+2025,January,Manufacturing,3367.724,572.47
+2025,April,Manufacturing,3328.812,591.37
+2025,July,Manufacturing,3561.909,603.15
+2025,October,Manufacturing,3635.146,636.52
+2021,January,"Electricity, Gas, and Steam Supply",70.494,708.55
+2021,April,"Electricity, Gas, and Steam Supply",70.887,705.08
+2021,July,"Electricity, Gas, and Steam Supply",83.583,719.02
+2021,October,"Electricity, Gas, and Steam Supply",64.595,778.85
+2022,January,"Electricity, Gas, and Steam Supply",81.675,815.15
+2022,April,"Electricity, Gas, and Steam Supply",102.447,738.16
+2022,July,"Electricity, Gas, and Steam Supply",97.682,777.02
+2022,October,"Electricity, Gas, and Steam Supply",100.093,677.94
+2023,January,"Electricity, Gas, and Steam Supply",101.894,674.98
+2023,April,"Electricity, Gas, and Steam Supply",84.759,823.84
+2023,July,"Electricity, Gas, and Steam Supply",92.635,830.6
+2023,October,"Electricity, Gas, and Steam Supply",101.689,929.37
+2024,January,"Electricity, Gas, and Steam Supply",90.088,906.39
+2024,April,"Electricity, Gas, and Steam Supply",70.134,905.54
+2024,July,"Electricity, Gas, and Steam Supply",93.182,951.92
+2024,October,"Electricity, Gas, and Steam Supply",95.253,882.11
+2025,January,"Electricity, Gas, and Steam Supply",88.767,924.33
+2025,April,"Electricity, Gas, and Steam Supply",112.115,1094.79
+2025,July,"Electricity, Gas, and Steam Supply",97.755,946.22
+2025,October,"Electricity, Gas, and Steam Supply",95.937,935.97
+2021,January,Water and Waste Management,63.026,448.26
+2021,April,Water and Waste Management,63.881,540.15
+2021,July,Water and Waste Management,92.039,478.74
+2021,October,Water and Waste Management,105.243,517.33
+2022,January,Water and Waste Management,93.019,515.3
+2022,April,Water and Waste Management,69.588,558.35
+2022,July,Water and Waste Management,80.891,433.07
+2022,October,Water and Waste Management,52.855,497.54
+2023,January,Water and Waste Management,59.05,526.49
+2023,April,Water and Waste Management,75.585,603.48
+2023,July,Water and Waste Management,89.425,556.74
+2023,October,Water and Waste Management,59.738,673.72
+2024,January,Water and Waste Management,99.286,588.05
+2024,April,Water and Waste Management,93.682,691.59
+2024,July,Water and Waste Management,91.924,599.23
+2024,October,Water and Waste Management,81.601,555.5
+2025,January,Water and Waste Management,90.443,557.1
+2025,April,Water and Waste Management,75.254,588.9
+2025,July,Water and Waste Management,92.194,583.23
+2025,October,Water and Waste Management,60.319,585.22
+2021,January,Construction,4150.704,446.87
+2021,April,Construction,4137.405,448.09
+2021,July,Construction,4386.026,467.96
+2021,October,Construction,4150.947,470.32
+2022,January,Construction,4352.263,480.67
+2022,April,Construction,4385.784,484.44
+2022,July,Construction,4522.763,489.18
+2022,October,Construction,4577.525,502.93
+2023,January,Construction,4017.538,502.17
+2023,April,Construction,4319.706,509.5
+2023,July,Construction,4575.649,523.3
+2023,October,Construction,4568.196,535.19
+2024,January,Construction,4607.504,539.94
+2024,April,Construction,4690.255,539.26
+2024,July,Construction,4751.465,541.6
+2024,October,Construction,4684.068,549.71
+2025,January,Construction,4596.819,568.34
+2025,April,Construction,4810.878,571.97
+2025,July,Construction,4604.745,587.45
+2025,October,Construction,4706.995,596.76
+2021,January,Wholesale and Retail Trade,8639.168,396.35
+2021,April,Wholesale and Retail Trade,9849.573,396.2
+2021,July,Wholesale and Retail Trade,8524.402,413.69
+2021,October,Wholesale and Retail Trade,9703.991,413.42
+2022,January,Wholesale and Retail Trade,9029.215,417.01
+2022,April,Wholesale and Retail Trade,9825.415,416.45
+2022,July,Wholesale and Retail Trade,10642.745,420.78
+2022,October,Wholesale and Retail Trade,10322.765,418.2
+2023,January,Wholesale and Retail Trade,10559.592,444.12
+2023,April,Wholesale and Retail Trade,10730.877,436.04
+2023,July,Wholesale and Retail Trade,8713.216,458.41
+2023,October,Wholesale and Retail Trade,10037.958,461.56
+2024,January,Wholesale and Retail Trade,9141.754,473.33
+2024,April,Wholesale and Retail Trade,10187.484,467.8
+2024,July,Wholesale and Retail Trade,9738.126,481.13
+2024,October,Wholesale and Retail Trade,9787.479,483.08
+2025,January,Wholesale and Retail Trade,9969.351,486.02
+2025,April,Wholesale and Retail Trade,10130.905,499.5
+2025,July,Wholesale and Retail Trade,8841.446,525.07
+2025,October,Wholesale and Retail Trade,9721.626,524.31
+2021,January,Transportation and Storage,2939.108,502.42
+2021,April,Transportation and Storage,2857.776,501.39
+2021,July,Transportation and Storage,2966.031,514.31
+2021,October,Transportation and Storage,2836.671,525.74
+2022,January,Transportation and Storage,3180.978,524.07
+2022,April,Transportation and Storage,3146.832,559.87
+2022,July,Transportation and Storage,3152.615,541.28
+2022,October,Transportation and Storage,3384.312,542.69
+2023,January,Transportation and Storage,3482.665,562.27
+2023,April,Transportation and Storage,3465.68,626.25
+2023,July,Transportation and Storage,3545.996,577.76
+2023,October,Transportation and Storage,3533.821,623.6
+2024,January,Transportation and Storage,3715.622,583.33
+2024,April,Transportation and Storage,3755.453,619.22
+2024,July,Transportation and Storage,3628.507,591.24
+2024,October,Transportation and Storage,3737.6,652.38
+2025,January,Transportation and Storage,3857.31,633.99
+2025,April,Transportation and Storage,3768.963,649.97
+2025,July,Transportation and Storage,3836.765,659.53
+2025,October,Transportation and Storage,3809.569,683.79
+2021,January,Accommodation and Food Services,1406.451,426.65
+2021,April,Accommodation and Food Services,1388.662,384.84
+2021,July,Accommodation and Food Services,1404.461,421.53
+2021,October,Accommodation and Food Services,1472.681,451.78
+2022,January,Accommodation and Food Services,1537.202,424.41
+2022,April,Accommodation and Food Services,1731.822,438.99
+2022,July,Accommodation and Food Services,1924.842,418.22
+2022,October,Accommodation and Food Services,1904.0,445.01
+2023,January,Accommodation and Food Services,2086.5,440.98
+2023,April,Accommodation and Food Services,2115.885,453.97
+2023,July,Accommodation and Food Services,2045.581,470.11
+2023,October,Accommodation and Food Services,2292.074,463.88
+2024,January,Accommodation and Food Services,2165.591,478.9
+2024,April,Accommodation and Food Services,2708.789,486.85
+2024,July,Accommodation and Food Services,2588.088,507.78
+2024,October,Accommodation and Food Services,2534.146,509.01
+2025,January,Accommodation and Food Services,2715.0,509.44
+2025,April,Accommodation and Food Services,2567.882,514.22
+2025,July,Accommodation and Food Services,2519.141,540.13
+2025,October,Accommodation and Food Services,2713.84,522.93
+2021,January,Information and Communication,464.225,803.91
+2021,April,Information and Communication,372.83,893.68
+2021,July,Information and Communication,478.328,797.28
+2021,October,Information and Communication,449.885,865.62
+2022,January,Information and Communication,494.846,831.9
+2022,April,Information and Communication,431.967,805.4
+2022,July,Information and Communication,423.045,1257.04
+2022,October,Information and Communication,476.695,884.82
+2023,January,Information and Communication,555.775,988.88
+2023,April,Information and Communication,489.679,971.94
+2023,July,Information and Communication,543.201,907.34
+2023,October,Information and Communication,538.261,959.2
+2024,January,Information and Communication,511.835,980.73
+2024,April,Information and Communication,438.402,1090.75
+2024,July,Information and Communication,459.965,1062.78
+2024,October,Information and Communication,540.11,1015.61
+2025,January,Information and Communication,502.345,963.9
+2025,April,Information and Communication,454.27,1043.29
+2025,July,Information and Communication,511.774,1118.26
+2025,October,Information and Communication,523.784,1042.54
+2021,January,Financial and Insurance Activities,617.643,757.75
+2021,April,Financial and Insurance Activities,597.796,720.82
+2021,July,Financial and Insurance Activities,632.589,758.3
+2021,October,Financial and Insurance Activities,592.246,745.48
+2022,January,Financial and Insurance Activities,622.762,772.18
+2022,April,Financial and Insurance Activities,600.95,772.9
+2022,July,Financial and Insurance Activities,641.414,771.57
+2022,October,Financial and Insurance Activities,653.565,781.03
+2023,January,Financial and Insurance Activities,647.653,791.78
+2023,April,Financial and Insurance Activities,655.626,809.84
+2023,July,Financial and Insurance Activities,659.259,826.75
+2023,October,Financial and Insurance Activities,637.086,805.89
+2024,January,Financial and Insurance Activities,648.246,821.6
+2024,April,Financial and Insurance Activities,648.649,807.72
+2024,July,Financial and Insurance Activities,708.071,785.71
+2024,October,Financial and Insurance Activities,713.689,808.96
+2025,January,Financial and Insurance Activities,742.787,833.25
+2025,April,Financial and Insurance Activities,656.878,853.55
+2025,July,Financial and Insurance Activities,717.126,979.25
+2025,October,Financial and Insurance Activities,763.924,871.98
+2021,January,Real Estate Activities,196.207,645.45
+2021,April,Real Estate Activities,192.776,665.37
+2021,July,Real Estate Activities,197.533,684.41
+2021,October,Real Estate Activities,212.151,651.83
+2022,January,Real Estate Activities,193.772,639.79
+2022,April,Real Estate Activities,229.974,707.34
+2022,July,Real Estate Activities,263.055,703.09
+2022,October,Real Estate Activities,231.735,697.73
+2023,January,Real Estate Activities,303.327,801.54
+2023,April,Real Estate Activities,297.873,723.93
+2023,July,Real Estate Activities,235.157,773.41
+2023,October,Real Estate Activities,257.116,880.94
+2024,January,Real Estate Activities,266.487,848.22
+2024,April,Real Estate Activities,231.581,988.85
+2024,July,Real Estate Activities,292.052,778.41
+2024,October,Real Estate Activities,237.463,683.6
+2025,January,Real Estate Activities,280.822,864.22
+2025,April,Real Estate Activities,272.222,661.15
+2025,July,Real Estate Activities,272.673,884.04
+2025,October,Real Estate Activities,324.907,722.22
+2021,January,Professional and Technical Services,281.866,903.93
+2021,April,Professional and Technical Services,269.344,831.05
+2021,July,Professional and Technical Services,430.664,851.3
+2021,October,Professional and Technical Services,312.952,904.46
+2022,January,Professional and Technical Services,392.461,847.92
+2022,April,Professional and Technical Services,332.275,887.13
+2022,July,Professional and Technical Services,335.779,885.67
+2022,October,Professional and Technical Services,325.733,986.4
+2023,January,Professional and Technical Services,372.04,960.78
+2023,April,Professional and Technical Services,374.162,941.37
+2023,July,Professional and Technical Services,501.089,919.26
+2023,October,Professional and Technical Services,390.085,958.64
+2024,January,Professional and Technical Services,485.967,979.94
+2024,April,Professional and Technical Services,393.07,1013.44
+2024,July,Professional and Technical Services,399.497,1000.6
+2024,October,Professional and Technical Services,422.749,1056.77
+2025,January,Professional and Technical Services,426.689,1016.31
+2025,April,Professional and Technical Services,392.25,980.14
+2025,July,Professional and Technical Services,472.129,1173.72
+2025,October,Professional and Technical Services,376.246,1115.7
+2021,January,Administrative and Support Services,1764.899,637.51
+2021,April,Administrative and Support Services,1728.292,649.35
+2021,July,Administrative and Support Services,2043.858,657.41
+2021,October,Administrative and Support Services,1949.824,674.28
+2022,January,Administrative and Support Services,2183.976,676.24
+2022,April,Administrative and Support Services,2079.11,688.57
+2022,July,Administrative and Support Services,2208.279,707.55
+2022,October,Administrative and Support Services,2315.013,700.86
+2023,January,Administrative and Support Services,2355.29,744.27
+2023,April,Administrative and Support Services,2424.058,756.52
+2023,July,Administrative and Support Services,2497.677,716.46
+2023,October,Administrative and Support Services,2552.924,790.23
+2024,January,Administrative and Support Services,2550.479,765.79
+2024,April,Administrative and Support Services,2611.951,791.58
+2024,July,Administrative and Support Services,2604.218,769.54
+2024,October,Administrative and Support Services,2817.084,800.69
+2025,January,Administrative and Support Services,2691.901,801.5
+2025,April,Administrative and Support Services,3005.968,795.44
+2025,July,Administrative and Support Services,2900.713,840.11
+2025,October,Administrative and Support Services,2879.483,845.75
+2021,January,Public Administration and Defense,2482.85,748.98
+2021,April,Public Administration and Defense,2609.61,763.89
+2021,July,Public Administration and Defense,2679.479,686.14
+2021,October,Public Administration and Defense,2714.361,760.99
+2022,January,Public Administration and Defense,2732.844,740.95
+2022,April,Public Administration and Defense,2758.295,729.67
+2022,July,Public Administration and Defense,2904.063,787.3
+2022,October,Public Administration and Defense,2746.699,779.84
+2023,January,Public Administration and Defense,2958.747,795.43
+2023,April,Public Administration and Defense,2895.99,799.67
+2023,July,Public Administration and Defense,2612.714,763.17
+2023,October,Public Administration and Defense,2835.013,805.36
+2024,January,Public Administration and Defense,2787.28,817.08
+2024,April,Public Administration and Defense,2801.96,871.79
+2024,July,Public Administration and Defense,2996.866,842.05
+2024,October,Public Administration and Defense,2868.679,858.49
+2025,January,Public Administration and Defense,2819.074,880.68
+2025,April,Public Administration and Defense,3063.433,896.39
+2025,July,Public Administration and Defense,2991.535,916.1
+2025,October,Public Administration and Defense,3125.309,929.52
+2021,January,Education,1439.399,904.59
+2021,April,Education,1506.599,922.62
+2021,July,Education,1361.774,904.02
+2021,October,Education,1416.651,950.03
+2022,January,Education,1430.427,970.56
+2022,April,Education,1449.065,982.2
+2022,July,Education,1392.421,991.96
+2022,October,Education,1533.761,1003.79
+2023,January,Education,1490.425,1023.34
+2023,April,Education,1638.21,1029.1
+2023,July,Education,1430.244,1002.66
+2023,October,Education,1584.63,1054.55
+2024,January,Education,1537.892,1022.76
+2024,April,Education,1567.038,1084.77
+2024,July,Education,1513.985,1025.25
+2024,October,Education,1627.417,1063.23
+2025,January,Education,1591.529,1099.77
+2025,April,Education,1632.916,1124.4
+2025,July,Education,1610.272,1132.11
+2025,October,Education,1634.084,1126.42
+2021,January,Health and Social Work,632.338,780.99
+2021,April,Health and Social Work,598.623,725.12
+2021,July,Health and Social Work,670.026,722.85
+2021,October,Health and Social Work,738.556,767.64
+2022,January,Health and Social Work,664.687,792.95
+2022,April,Health and Social Work,710.839,812.77
+2022,July,Health and Social Work,669.807,771.36
+2022,October,Health and Social Work,660.468,813.94
+2023,January,Health and Social Work,677.041,885.11
+2023,April,Health and Social Work,812.48,812.83
+2023,July,Health and Social Work,695.593,808.4
+2023,October,Health and Social Work,740.969,855.47
+2024,January,Health and Social Work,660.583,877.16
+2024,April,Health and Social Work,717.777,914.11
+2024,July,Health and Social Work,637.465,917.13
+2024,October,Health and Social Work,778.273,928.94
+2025,January,Health and Social Work,738.352,873.58
+2025,April,Health and Social Work,779.739,958.72
+2025,July,Health and Social Work,806.168,977.19
+2025,October,Health and Social Work,793.552,980.29
+2021,January,"Arts, Entertainment, and Recreation",268.697,567.17
+2021,April,"Arts, Entertainment, and Recreation",266.942,427.59
+2021,July,"Arts, Entertainment, and Recreation",318.367,469.97
+2021,October,"Arts, Entertainment, and Recreation",331.66,501.39
+2022,January,"Arts, Entertainment, and Recreation",389.642,520.72
+2022,April,"Arts, Entertainment, and Recreation",457.997,512.72
+2022,July,"Arts, Entertainment, and Recreation",481.053,581.8
+2022,October,"Arts, Entertainment, and Recreation",424.975,549.03
+2023,January,"Arts, Entertainment, and Recreation",428.748,581.39
+2023,April,"Arts, Entertainment, and Recreation",491.621,545.84
+2023,July,"Arts, Entertainment, and Recreation",446.019,576.09
+2023,October,"Arts, Entertainment, and Recreation",389.408,488.01
+2024,January,"Arts, Entertainment, and Recreation",471.329,615.12
+2024,April,"Arts, Entertainment, and Recreation",509.449,683.99
+2024,July,"Arts, Entertainment, and Recreation",463.649,597.68
+2024,October,"Arts, Entertainment, and Recreation",400.432,532.64
+2025,January,"Arts, Entertainment, and Recreation",441.145,625.48
+2025,April,"Arts, Entertainment, and Recreation",446.098,646.18
+2025,July,"Arts, Entertainment, and Recreation",415.235,665.16
+2025,October,"Arts, Entertainment, and Recreation",403.427,671.6
+2021,January,Other Services,2467.565,283.28
+2021,April,Other Services,2583.217,290.64
+2021,July,Other Services,2484.89,325.74
+2021,October,Other Services,2509.146,295.69
+2022,January,Other Services,2645.983,304.62
+2022,April,Other Services,2703.862,304.81
+2022,July,Other Services,2834.892,311.11
+2022,October,Other Services,2843.922,295.21
+2023,January,Other Services,2848.992,324.21
+2023,April,Other Services,2945.452,323.15
+2023,July,Other Services,2878.31,350.59
+2023,October,Other Services,2919.87,338.07
+2024,January,Other Services,3006.89,364.5
+2024,April,Other Services,3145.542,351.36
+2024,July,Other Services,2996.482,370.12
+2024,October,Other Services,2898.912,356.91
+2025,January,Other Services,3101.934,356.38
+2025,April,Other Services,2962.739,376.48
+2025,July,Other Services,3016.463,391.31
+2025,October,Other Services,2378.448,388.45
+2021,January,Extraterritorial Organizations,1.491,757.5
+2021,April,Extraterritorial Organizations,2.331,599.12
+2021,July,Extraterritorial Organizations,1.203,988.27
+2021,October,Extraterritorial Organizations,0.66,1279.06
+2022,January,Extraterritorial Organizations,0.592,721.71
+2022,April,Extraterritorial Organizations,3.779,1411.78
+2022,July,Extraterritorial Organizations,1.098,853.3
+2022,October,Extraterritorial Organizations,1.823,703.55
+2023,January,Extraterritorial Organizations,2.28,527.06
+2023,April,Extraterritorial Organizations,1.109,1552.46
+2023,July,Extraterritorial Organizations,1.536,762.73
+2023,October,Extraterritorial Organizations,2.972,1195.42
+2024,January,Extraterritorial Organizations,1.838,1256.77
+2024,April,Extraterritorial Organizations,2.653,883.97
+2024,July,Extraterritorial Organizations,1.066,1571.03
+2024,October,Extraterritorial Organizations,0.483,749.72
+2025,January,Extraterritorial Organizations,2.03,6620.08
+2025,April,Extraterritorial Organizations,0.42,699.19
+2025,July,Extraterritorial Organizations,0.524,2329.94
+2025,October,Extraterritorial Organizations,1.599,869.66
