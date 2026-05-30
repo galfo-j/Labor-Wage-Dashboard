@@ -205,7 +205,7 @@ if st.session_state.navigation == "dashboard":
         
     with sel_col2:
         if selected_major_sector == "All Major Sectors":
-            industries_in_sector = ["All Industries Combined"]
+            industries_in_sector = ["All Industries"]
         else:
             industries_in_sector = ["All " + selected_major_sector + " Combined"] + sorted(list(df[df['Major_Sector'] == selected_major_sector]['Industry'].unique()))
         selected_industry = st.selectbox("Select Specific Industry Sector:", industries_in_sector, key="dashboard_ind_select")
@@ -214,9 +214,9 @@ if st.session_state.navigation == "dashboard":
     
     # Base filtering logic handling "All" aggregates
     if selected_major_sector == "All Major Sectors":
-        if selected_industry == "All Industries Combined":
+        if selected_industry == "All Industries":
             filtered_df = df.groupby('Timeline', as_index=False).agg({'Employed_Persons': 'sum', 'Average_Daily_Pay': 'mean', 'YEAR': 'first', 'Month_Num': 'first'})
-            display_title = "All Industries Combined"
+            display_title = "All Industries"
         else:
             filtered_df = df[df['Industry'] == selected_industry]
             display_title = selected_industry
