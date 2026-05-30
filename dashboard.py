@@ -17,7 +17,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# 2. Load Your Clean Dataset
+# 2. Dataset Loading
 @st.cache_data
 def load_data():
     df = pd.read_csv("dashboard.csv")
@@ -33,7 +33,7 @@ def load_data():
 
 df = load_data()
 
-# Function to map industries to major sectors (PSIC-based grouping)
+# Industry Mapping
 def get_major_sector(industry):
     agriculture_keywords = ['Agriculture', 'Forestry', 'Fishing', 'Crop', 'Livestock']
     if any(keyword in industry for keyword in agriculture_keywords):
@@ -49,10 +49,10 @@ def get_major_sector(industry):
     
     return 'Services'
 
-# Add major sector column to dataframe
+# Major Industry Column
 df['Major_Sector'] = df['Industry'].apply(get_major_sector)
 
-# Premium UI Theme
+# UI Theme
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
@@ -136,10 +136,7 @@ for nav_key, nav_label in nav_options.items():
     if st.sidebar.button(nav_label, key=nav_key, use_container_width=True):
         st.session_state.navigation = nav_key
 
-st.sidebar.markdown("---")
-st.sidebar.markdown("📌 **Data Source:** Philippine Statistcis Authority")
-
-# 5. Main Content Area based on Navigation Selection
+# 5. Main Content Area 
 if st.session_state.navigation == "dashboard":
     st.title("📊 National Industry Labor & Wage Dashboard")
     st.markdown("---")
