@@ -265,7 +265,7 @@ if st.session_state.navigation == "dashboard":
 
 elif st.session_state.navigation == "forecasting":
     # ============ FORECASTING TAB  ============
-    st.title("🔮 Employment Forecasting")
+    st.title("📉 Employment Forecasting")
     st.markdown("Predict annual employment trajectories based on year-on-year industrial data trends using Linear Regression models.")
     st.markdown("---")
     
